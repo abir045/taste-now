@@ -2,6 +2,7 @@ import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import "./globals.css";
 import { Inter, Poppins, Praise } from "next/font/google";
+import Featured from "./components/Featured";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,12 +21,10 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={poppins.className}>
         <Navbar />
+        <Featured />
         {children}
         <Footer />
-        <script
-          src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.7.0/flowbite.min.js"
-          defer
-        ></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.7.0/flowbite.min.js"></script>
       </body>
     </html>
   );
