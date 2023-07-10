@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import "./globals.css";
 import { Inter, Poppins, Praise } from "next/font/google";
 import Featured from "./components/Featured";
+import ProductList from "./components/ProductList";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -22,6 +23,7 @@ export default function RootLayout({ children }) {
       <body className={poppins.className}>
         <Navbar />
         <Featured />
+        <ProductList />
         {children}
         <Footer />
         <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.7.0/flowbite.min.js"></script>
