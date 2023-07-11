@@ -4,6 +4,7 @@ import "./globals.css";
 import { Inter, Poppins, Praise } from "next/font/google";
 import Featured from "./components/Featured";
 import ProductList from "./components/ProductList";
+import Banner from "./components/Banner";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -22,9 +23,11 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={poppins.className}>
         <Navbar />
-        <Featured />
-        <ProductList />
-        {children}
+        {/* <Featured /> */}
+        {/* <ProductList /> */}
+        {/* <Banner /> */}
+        <main>{children}</main>
+
         <Footer />
         <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.7.0/flowbite.min.js"></script>
       </body>
