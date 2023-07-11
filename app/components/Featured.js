@@ -8,12 +8,12 @@ import food from "../../public/img/Food1.svg";
 
 const Featured = () => {
   return (
-    <div className="md:flex items-center justify-around mx-[5%]">
+    <div className="md:flex  items-center justify-around ">
       <a
         href="#"
-        className="block max-w-md p-6 bg-white  dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
+        className="block  max-w-lg p-8 bg-white  dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
       >
-        <h5 className="text-5xl font-bold tracking-normal text-[#3F3F3F] dark:text-white">
+        <h5 className="w-full text-5xl  font-bold tracking-wide text-[#3F3F3F] dark:text-white mb-5">
           Experience food <span className="text-[#f72d57]">Delivery</span> like
           no other
         </h5>

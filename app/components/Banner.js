@@ -4,7 +4,7 @@ import Image from "next/image";
 import burgerSvg from "../../public/img/BurgerSvg.svg";
 const Banner = () => {
   return (
-    <div className="flex relative items-center ">
+    <div className="flex relative items-center mt-[5%]">
       <section className="bg-[#F72D57] pl-[50%]  dark:bg-gray-900 dark:text-black mt-[5%]">
         <div className="py-8 px-4   max-w-screen-xl   lg:py-6">
           <h1 className="mb-4  text-white text-4xl font-bold  tracking-tight leading-none  md:text-5xl lg:text-6xl dark:text-white">

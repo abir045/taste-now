@@ -7,9 +7,9 @@ const Navbar = () => {
   return (
     <div>
       <nav className="bg-white border-gray-200 dark:bg-gray-900">
-        <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-3">
+        <div className="max-w-screen-xl flex  items-center justify-between mx-[5%]  p-3">
           <a href="/" className="flex items-center">
-            <Image src={logo} className="h-4" alt="Logo" />
+            <Image src={logo} className="h-8" alt="Logo" />
           </a>
           <button
             data-collapse-toggle="navbar-default"

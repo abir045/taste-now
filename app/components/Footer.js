@@ -9,7 +9,7 @@ const Footer = () => {
       <footer className="bg-[#F72D57]    dark:bg-gray-800 mt-[15%] py-2">
         <div className="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">
           <a href="/">
-            <Image src={logo} className="h-4" alt="Logo" />
+            <Image src={logo} className="h-8" alt="Logo" />
           </a>
 
           <div className="flex flex-col items-baseline">
