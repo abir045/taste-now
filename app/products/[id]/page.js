@@ -21,17 +21,17 @@ const SingleProductPage = () => {
 
       <a
         href="#"
-        class="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
+        className="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
       >
-        <div class="flex flex-col justify-between p-4 leading-normal">
-          <h5 class="mb-5 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+        <div className="flex flex-col justify-between p-4 leading-normal">
+          <h5 className="mb-5 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
             {product.name}
           </h5>
-          <span class="mb-5 text-xl font-bold tracking-tight text-gray-900 dark:text-white">
+          <span className="mb-5 text-xl font-bold tracking-tight text-gray-900 dark:text-white">
             {product.price[0]}$
           </span>
 
-          <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">
+          <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
             {product.desc}
           </p>
 
@@ -93,7 +93,7 @@ const SingleProductPage = () => {
             </div>
           </div>
           <div className="flex items-center space-x-5">
-            <input type="number" defaultValue={1} className="" />
+            <input type="number" defaultValue={1} className="w-[50px]" />
             <button className="bg-[#F72D57] text-white px-5 py-2 rounded">
               Add to Cart
             </button>
