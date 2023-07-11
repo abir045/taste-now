@@ -4,16 +4,16 @@ import slide1 from "../../public/img/slide1.jpg";
 import slide2 from "../../public/img/slide2.jpg";
 import kebab from "../../public/img/kebab.jpg";
 import grilling from "../../public/img/grilling.jpg";
-import food from "../../public/img/Food1.svg";
+import food from "../../public/img/Food.jpg";
 
 const Featured = () => {
   return (
-    <div className="md:flex  items-center justify-around ">
+    <div className="md:flex  items-center justify-between ">
       <a
         href="#"
-        className="block  max-w-lg p-8 bg-white  dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700"
+        className="block  max-w-xl bg-white  dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700 mx-[5%]"
       >
-        <h5 className="w-full text-5xl  font-bold tracking-wide text-[#3F3F3F] dark:text-white mb-5">
+        <h5 className="text-5xl leading-[64px] font-bold tracking-normal text-[#3F3F3F] dark:text-white mb-5">
           Experience food <span className="text-[#f72d57]">Delivery</span> like
           no other
         </h5>
@@ -24,8 +24,8 @@ const Featured = () => {
         </p>
       </a>
 
-      <div className="flex">
-        <Image src={food} alt="hero image" />
+      <div className="flex w-full">
+        <Image src={food} className="w-full" alt="hero image" />
       </div>
     </div>
   );
